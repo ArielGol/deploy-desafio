@@ -6,7 +6,7 @@ import { nanoid } from 'nanoid';
 import { hostname } from 'os';
 // Initialize Express
 const app = express(); 
-const PORT = 3000;
+const PORT = process.env.PORT||3000;
 //Middlewares
 app.use(express.json());
 app.use(cors());
