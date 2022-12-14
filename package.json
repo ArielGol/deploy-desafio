@@ -12,7 +12,7 @@
     "test": "ava",
     "build:api": "tsc",
     "build": "yarn build:front && yarn build:api",
-    "start": "ts-node index.ts"
+    "start": "node index.js"
   },
   "devDependencies": {
     "@types/node": "^18.11.10",
